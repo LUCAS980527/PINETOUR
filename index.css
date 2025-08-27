@@ -367,6 +367,20 @@
   padding: 32px 24px 48px 24px;
   box-sizing: border-box;
 }
+.pop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 336px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.popu {
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #6972b5;
+  width: 91px;
+  height: 27px;
+}
 .tit {
   padding-left: 7px;
   padding-top: 7px;
