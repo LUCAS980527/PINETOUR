@@ -89,6 +89,7 @@
   font-size: 37px;
   padding: 20px;
   color: white;
+  position: relative;
 }
 .hiid {
   background-image: url(/2.png);
@@ -105,6 +106,7 @@
   font-size: 37px;
   padding: 20px;
   color: white;
+  position: relative;
 }
 .huwsgul {
   background-image: url(/3.png);
@@ -121,6 +123,7 @@
   font-size: 37px;
   padding: 20px;
   color: white;
+  position: relative;
 }
 .togoo {
   background-image: url(/4.png);
@@ -137,6 +140,30 @@
   font-size: 37px;
   padding: 20px;
   color: white;
+  position: relative;
+}
+.terh:hover > .over {
+  display: block;
+}
+.z1 {
+  z-index: 1;
+}
+.over {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  display: none;
+}
+.hiid:hover > .over {
+  display: block;
+}
+.huwsgul:hover > .over {
+  display: block;
+}
+.togoo:hover > .over {
+  display: block;
 }
 .flex {
   display: flex;
@@ -387,7 +414,7 @@
   box-shadow: -8px -8px 0 0 rgba(46, 65, 71, 0.4),
     8px 8px 0 0 rgba(41, 114, 139, 0.25);
 }
-.frame1:hover > .b3 {
+.frame1:hover > .all > .button {
   background-color: rgba(24, 24, 27, 0.9);
   color: white;
 }
